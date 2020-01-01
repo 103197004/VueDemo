@@ -22,6 +22,7 @@
         <span></span>
       </el-col>
     </el-row>
+    <h1>{{this.$store.state.count}}</h1>
     <el-row>
       <el-col :span="4">
         <el-menu
@@ -64,7 +65,8 @@ export default {
     return {
       msg: "智能大数据分析"
     }
-  },methods: {
+  },
+  methods: {
       logout: function () {
             console.log("out")
         }
