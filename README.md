@@ -31,3 +31,10 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/103197004/VueDemo.git
 git push -u origin master
+
+
+# start
+npm run dev
+
+# build
+npm run build
